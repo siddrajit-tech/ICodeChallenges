@@ -1,0 +1,126 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: antiquewhite;
+}
+/* PROFILE CARD  */
+
+.profile-card{
+  width: 300px;             
+  background-color: white;
+  text-align: center;
+  border-radius: 10px  ;
+  margin: 100px auto auto;
+  padding-bottom: 40px;
+  overflow: hidden;
+
+}
+
+.profile-img {
+  margin-top: -40px;
+}
+
+.background-img img{
+  width: 100%;
+  height: 150px;
+  border-radius: 10px 10px 0 0;
+  display: block;
+  object-fit: cover;
+}
+
+.profile-img img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin: 0 auto 20px auto;
+  
+}
+
+.profile-text p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 550;
+  overflow: hidden;
+  margin: 20px 0 8px 0;
+}
+
+.profile-text a{
+  text-decoration: none;
+  color: #5d5d5d;
+  margin: 0 0 20px 0;
+  overflow: hidden;
+  display: block;
+  font-size: 14px;
+}
+
+.profile-text button{
+  display: block;
+  margin: 6px auto 12px auto;
+  padding: 7px 30px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  overflow: hidden;
+  outline: none;
+}
+
+/* FOLLOW CARD  */
+
+.follow-card{
+  display: flex;
+  width: 400px;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px  ;
+  margin: 100px auto auto;
+  overflow: hidden;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+
+
+.profile-content{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.profile-content img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.profile-content p {
+  margin: 0; /* Remove default margins */
+  text-align: left; /* Align text to left */
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.profile-info p:first-of-type{
+  font-weight: 550;
+}
+
+.profile-info p:last-of-type{
+  font-size: 13px;
+  color: #5d5d5d;
+}
+
+.follow-btn button{
+  background-color: transparent;
+  color: #5d5d5d;
+  border: 1px solid #969595;
+  cursor: pointer;
+  padding: 7px 30px;
+  border-radius: 20px;
+  font-weight: bold;
+}
