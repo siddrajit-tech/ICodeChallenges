@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(8, 10, 49);
+}
+
+.container {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  gap: 17px;
+  
+}
+
+.pricing-card{
+  width: 250px;
+  text-align: center;
+  border: solid 8px rgb(84, 95, 141);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 12px;
+  margin: 300px 0;
+  padding: 30px
+}
+
+.label{
+  margin-bottom: 20px ;
+  font-size: 14px;
+}
+
+.storage{
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.plan{
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+button{
+  color: white;
+  background-color: rgb(47, 115, 224);
+  border: none;
+  outline: none;
+  padding: 10px 25px;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+hr{
+  width: 100%; 
+  background-color: rgb(84, 95, 141);
+  margin-bottom: 25px;
+}
+
+.selected{
+  border: solid 8px rgb(47, 115, 224);
+}
+
+.info{
+  margin: 10px 0;
+  font-size: 14px;
+}
